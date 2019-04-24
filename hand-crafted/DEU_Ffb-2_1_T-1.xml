@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<commonRoad affiliation="Technical University of Munich, Germany" author="Vanessa Bui, Markus Koschi, Sebastian Lutz" benchmarkID="DEU_Ffb-2_1_T-1" commonRoadVersion="2018a" date="2018-06-21" source="Bing Maps" tags="urban two_lane oncoming_traffic intersection turn_left comfort speed_limit" timeStepSize="0.1">
+<commonRoad affiliation="Technical University of Munich, Germany" author="Vanessa Bui, Markus Koschi, Sebastian Lutz" benchmarkID="DEU_Ffb-2_1_T-1" commonRoadVersion="2018b" date="2018-10-26" source="Bing Maps" tags="urban two_lane oncoming_traffic intersection turn_left comfort speed_limit" timeStepSize="0.1">
    <lanelet id="50195">
       <leftBound>
          <point>
@@ -1537,24 +1537,24 @@
             <width>2</width>
          </rectangle>
       </shape>
+      <initialState>
+         <position>
+            <point>
+               <x>14.5536</x>
+               <y>7.2898</y>
+            </point>
+         </position>
+         <orientation>
+            <exact>-1.5708</exact>
+         </orientation>
+         <time>
+            <exact>0</exact>
+         </time>
+         <velocity>
+            <exact>14</exact>
+         </velocity>
+      </initialState>
       <trajectory>
-         <state>
-            <position>
-               <point>
-                  <x>14.5536</x>
-                  <y>7.2898</y>
-               </point>
-            </position>
-            <orientation>
-               <exact>-1.5708</exact>
-            </orientation>
-            <time>
-               <exact>0</exact>
-            </time>
-            <velocity>
-               <exact>14</exact>
-            </velocity>
-         </state>
          <state>
             <position>
                <point>
@@ -1566,7 +1566,7 @@
                <exact>-1.4747</exact>
             </orientation>
             <time>
-               <exact>0.1</exact>
+               <exact>1</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1583,7 +1583,7 @@
                <exact>-1.3437</exact>
             </orientation>
             <time>
-               <exact>0.2</exact>
+               <exact>2</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1600,7 +1600,7 @@
                <exact>-1.1441</exact>
             </orientation>
             <time>
-               <exact>0.3</exact>
+               <exact>3</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1617,7 +1617,7 @@
                <exact>-1.0411</exact>
             </orientation>
             <time>
-               <exact>0.4</exact>
+               <exact>4</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1634,7 +1634,7 @@
                <exact>-0.81282</exact>
             </orientation>
             <time>
-               <exact>0.5</exact>
+               <exact>5</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1651,7 +1651,7 @@
                <exact>-0.61929</exact>
             </orientation>
             <time>
-               <exact>0.6</exact>
+               <exact>6</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1668,7 +1668,7 @@
                <exact>-0.47744</exact>
             </orientation>
             <time>
-               <exact>0.7</exact>
+               <exact>7</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1685,7 +1685,7 @@
                <exact>-0.34722</exact>
             </orientation>
             <time>
-               <exact>0.8</exact>
+               <exact>8</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1702,7 +1702,7 @@
                <exact>-0.25004</exact>
             </orientation>
             <time>
-               <exact>0.9</exact>
+               <exact>9</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1719,7 +1719,7 @@
                <exact>-0.19984</exact>
             </orientation>
             <time>
-               <exact>1</exact>
+               <exact>10</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1736,7 +1736,7 @@
                <exact>-0.19984</exact>
             </orientation>
             <time>
-               <exact>1.1</exact>
+               <exact>11</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1753,7 +1753,7 @@
                <exact>-0.19984</exact>
             </orientation>
             <time>
-               <exact>1.2</exact>
+               <exact>12</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1770,7 +1770,7 @@
                <exact>-0.19984</exact>
             </orientation>
             <time>
-               <exact>1.3</exact>
+               <exact>13</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1787,7 +1787,7 @@
                <exact>-0.19984</exact>
             </orientation>
             <time>
-               <exact>1.4</exact>
+               <exact>14</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1804,7 +1804,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>1.5</exact>
+               <exact>15</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1821,7 +1821,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>1.6</exact>
+               <exact>16</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1838,7 +1838,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>1.7</exact>
+               <exact>17</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1855,7 +1855,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>1.8</exact>
+               <exact>18</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1872,7 +1872,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>1.9</exact>
+               <exact>19</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1889,7 +1889,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>2</exact>
+               <exact>20</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1906,7 +1906,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>2.1</exact>
+               <exact>21</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1923,7 +1923,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>2.2</exact>
+               <exact>22</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1940,7 +1940,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>2.3</exact>
+               <exact>23</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1957,7 +1957,7 @@
                <exact>-0.21512</exact>
             </orientation>
             <time>
-               <exact>2.4</exact>
+               <exact>24</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1974,7 +1974,7 @@
                <exact>-0.21512</exact>
             </orientation>
             <time>
-               <exact>2.5</exact>
+               <exact>25</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -1991,7 +1991,7 @@
                <exact>-0.21512</exact>
             </orientation>
             <time>
-               <exact>2.6</exact>
+               <exact>26</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2008,7 +2008,7 @@
                <exact>-0.21512</exact>
             </orientation>
             <time>
-               <exact>2.7</exact>
+               <exact>27</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2025,7 +2025,7 @@
                <exact>-0.21512</exact>
             </orientation>
             <time>
-               <exact>2.8</exact>
+               <exact>28</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2042,7 +2042,7 @@
                <exact>-0.21512</exact>
             </orientation>
             <time>
-               <exact>2.9</exact>
+               <exact>29</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2059,7 +2059,7 @@
                <exact>-0.21512</exact>
             </orientation>
             <time>
-               <exact>3</exact>
+               <exact>30</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2076,7 +2076,7 @@
                <exact>-0.21512</exact>
             </orientation>
             <time>
-               <exact>3.1</exact>
+               <exact>31</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2093,7 +2093,7 @@
                <exact>-0.21874</exact>
             </orientation>
             <time>
-               <exact>3.2</exact>
+               <exact>32</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2110,7 +2110,7 @@
                <exact>-0.20179</exact>
             </orientation>
             <time>
-               <exact>3.3</exact>
+               <exact>33</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2127,7 +2127,7 @@
                <exact>-0.20179</exact>
             </orientation>
             <time>
-               <exact>3.4</exact>
+               <exact>34</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2144,7 +2144,7 @@
                <exact>-0.20179</exact>
             </orientation>
             <time>
-               <exact>3.5</exact>
+               <exact>35</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2161,7 +2161,7 @@
                <exact>-0.20179</exact>
             </orientation>
             <time>
-               <exact>3.6</exact>
+               <exact>36</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2178,7 +2178,7 @@
                <exact>-0.20179</exact>
             </orientation>
             <time>
-               <exact>3.7</exact>
+               <exact>37</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2195,7 +2195,7 @@
                <exact>-0.20179</exact>
             </orientation>
             <time>
-               <exact>3.8</exact>
+               <exact>38</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2212,7 +2212,7 @@
                <exact>-0.20179</exact>
             </orientation>
             <time>
-               <exact>3.9</exact>
+               <exact>39</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2229,7 +2229,7 @@
                <exact>-0.12932</exact>
             </orientation>
             <time>
-               <exact>4</exact>
+               <exact>40</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2246,7 +2246,7 @@
                <exact>-0.12932</exact>
             </orientation>
             <time>
-               <exact>4.1</exact>
+               <exact>41</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2263,7 +2263,7 @@
                <exact>-0.12932</exact>
             </orientation>
             <time>
-               <exact>4.2</exact>
+               <exact>42</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2280,7 +2280,7 @@
                <exact>-0.12932</exact>
             </orientation>
             <time>
-               <exact>4.3</exact>
+               <exact>43</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2297,7 +2297,7 @@
                <exact>-0.12932</exact>
             </orientation>
             <time>
-               <exact>4.4</exact>
+               <exact>44</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2314,7 +2314,7 @@
                <exact>-0.12932</exact>
             </orientation>
             <time>
-               <exact>4.5</exact>
+               <exact>45</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2331,7 +2331,7 @@
                <exact>-0.051433</exact>
             </orientation>
             <time>
-               <exact>4.6</exact>
+               <exact>46</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2348,7 +2348,7 @@
                <exact>-0.051433</exact>
             </orientation>
             <time>
-               <exact>4.7</exact>
+               <exact>47</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2365,7 +2365,7 @@
                <exact>-0.051433</exact>
             </orientation>
             <time>
-               <exact>4.8</exact>
+               <exact>48</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2382,7 +2382,7 @@
                <exact>-0.051433</exact>
             </orientation>
             <time>
-               <exact>4.9</exact>
+               <exact>49</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2399,7 +2399,7 @@
                <exact>-0.051433</exact>
             </orientation>
             <time>
-               <exact>5</exact>
+               <exact>50</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2416,24 +2416,24 @@
             <width>2</width>
          </rectangle>
       </shape>
+      <initialState>
+         <position>
+            <point>
+               <x>5.8598</x>
+               <y>40.7557</y>
+            </point>
+         </position>
+         <orientation>
+            <exact>-1.2915</exact>
+         </orientation>
+         <time>
+            <exact>0</exact>
+         </time>
+         <velocity>
+            <exact>14</exact>
+         </velocity>
+      </initialState>
       <trajectory>
-         <state>
-            <position>
-               <point>
-                  <x>5.8598</x>
-                  <y>40.7557</y>
-               </point>
-            </position>
-            <orientation>
-               <exact>-1.2915</exact>
-            </orientation>
-            <time>
-               <exact>0</exact>
-            </time>
-            <velocity>
-               <exact>14</exact>
-            </velocity>
-         </state>
          <state>
             <position>
                <point>
@@ -2445,7 +2445,7 @@
                <exact>-1.2493</exact>
             </orientation>
             <time>
-               <exact>0.1</exact>
+               <exact>1</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2462,7 +2462,7 @@
                <exact>-1.2493</exact>
             </orientation>
             <time>
-               <exact>0.2</exact>
+               <exact>2</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2479,7 +2479,7 @@
                <exact>-1.2493</exact>
             </orientation>
             <time>
-               <exact>0.3</exact>
+               <exact>3</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2496,7 +2496,7 @@
                <exact>-1.2493</exact>
             </orientation>
             <time>
-               <exact>0.4</exact>
+               <exact>4</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2513,7 +2513,7 @@
                <exact>-1.2493</exact>
             </orientation>
             <time>
-               <exact>0.5</exact>
+               <exact>5</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2530,7 +2530,7 @@
                <exact>-1.2139</exact>
             </orientation>
             <time>
-               <exact>0.6</exact>
+               <exact>6</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2547,7 +2547,7 @@
                <exact>-1.2139</exact>
             </orientation>
             <time>
-               <exact>0.7</exact>
+               <exact>7</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2564,7 +2564,7 @@
                <exact>-1.2139</exact>
             </orientation>
             <time>
-               <exact>0.8</exact>
+               <exact>8</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2581,7 +2581,7 @@
                <exact>-1.2139</exact>
             </orientation>
             <time>
-               <exact>0.9</exact>
+               <exact>9</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2598,7 +2598,7 @@
                <exact>-1.2139</exact>
             </orientation>
             <time>
-               <exact>1</exact>
+               <exact>10</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2615,7 +2615,7 @@
                <exact>-1.2547</exact>
             </orientation>
             <time>
-               <exact>1.1</exact>
+               <exact>11</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2632,7 +2632,7 @@
                <exact>-1.2547</exact>
             </orientation>
             <time>
-               <exact>1.2</exact>
+               <exact>12</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2649,7 +2649,7 @@
                <exact>-1.2547</exact>
             </orientation>
             <time>
-               <exact>1.3</exact>
+               <exact>13</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2666,7 +2666,7 @@
                <exact>-1.2547</exact>
             </orientation>
             <time>
-               <exact>1.4</exact>
+               <exact>14</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2683,7 +2683,7 @@
                <exact>-1.2713</exact>
             </orientation>
             <time>
-               <exact>1.5</exact>
+               <exact>15</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2700,7 +2700,7 @@
                <exact>-1.2713</exact>
             </orientation>
             <time>
-               <exact>1.6</exact>
+               <exact>16</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2717,7 +2717,7 @@
                <exact>-1.2713</exact>
             </orientation>
             <time>
-               <exact>1.7</exact>
+               <exact>17</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2734,7 +2734,7 @@
                <exact>-1.3863</exact>
             </orientation>
             <time>
-               <exact>1.8</exact>
+               <exact>18</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2751,7 +2751,7 @@
                <exact>-1.3863</exact>
             </orientation>
             <time>
-               <exact>1.9</exact>
+               <exact>19</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2768,7 +2768,7 @@
                <exact>-1.5443</exact>
             </orientation>
             <time>
-               <exact>2</exact>
+               <exact>20</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2785,7 +2785,7 @@
                <exact>-1.5443</exact>
             </orientation>
             <time>
-               <exact>2.1</exact>
+               <exact>21</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2802,7 +2802,7 @@
                <exact>-1.6142</exact>
             </orientation>
             <time>
-               <exact>2.2</exact>
+               <exact>22</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2819,7 +2819,7 @@
                <exact>-1.6142</exact>
             </orientation>
             <time>
-               <exact>2.3</exact>
+               <exact>23</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2836,7 +2836,7 @@
                <exact>-1.6142</exact>
             </orientation>
             <time>
-               <exact>2.4</exact>
+               <exact>24</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2853,7 +2853,7 @@
                <exact>-1.5744</exact>
             </orientation>
             <time>
-               <exact>2.5</exact>
+               <exact>25</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2870,7 +2870,7 @@
                <exact>-1.4747</exact>
             </orientation>
             <time>
-               <exact>2.6</exact>
+               <exact>26</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2887,7 +2887,7 @@
                <exact>-1.3152</exact>
             </orientation>
             <time>
-               <exact>2.7</exact>
+               <exact>27</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2904,7 +2904,7 @@
                <exact>-1.1441</exact>
             </orientation>
             <time>
-               <exact>2.8</exact>
+               <exact>28</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2921,7 +2921,7 @@
                <exact>-1.0411</exact>
             </orientation>
             <time>
-               <exact>2.9</exact>
+               <exact>29</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2938,7 +2938,7 @@
                <exact>-0.81282</exact>
             </orientation>
             <time>
-               <exact>3</exact>
+               <exact>30</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2955,7 +2955,7 @@
                <exact>-0.60568</exact>
             </orientation>
             <time>
-               <exact>3.1</exact>
+               <exact>31</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2972,7 +2972,7 @@
                <exact>-0.37095</exact>
             </orientation>
             <time>
-               <exact>3.2</exact>
+               <exact>32</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -2989,7 +2989,7 @@
                <exact>-0.25004</exact>
             </orientation>
             <time>
-               <exact>3.3</exact>
+               <exact>33</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3006,7 +3006,7 @@
                <exact>-0.25004</exact>
             </orientation>
             <time>
-               <exact>3.4</exact>
+               <exact>34</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3023,7 +3023,7 @@
                <exact>-0.19984</exact>
             </orientation>
             <time>
-               <exact>3.5</exact>
+               <exact>35</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3040,7 +3040,7 @@
                <exact>-0.19984</exact>
             </orientation>
             <time>
-               <exact>3.6</exact>
+               <exact>36</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3057,7 +3057,7 @@
                <exact>-0.19984</exact>
             </orientation>
             <time>
-               <exact>3.7</exact>
+               <exact>37</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3074,7 +3074,7 @@
                <exact>-0.19984</exact>
             </orientation>
             <time>
-               <exact>3.8</exact>
+               <exact>38</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3091,7 +3091,7 @@
                <exact>-0.19984</exact>
             </orientation>
             <time>
-               <exact>3.9</exact>
+               <exact>39</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3108,7 +3108,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>4</exact>
+               <exact>40</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3125,7 +3125,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>4.1</exact>
+               <exact>41</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3142,7 +3142,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>4.2</exact>
+               <exact>42</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3159,7 +3159,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>4.3</exact>
+               <exact>43</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3176,7 +3176,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>4.4</exact>
+               <exact>44</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3193,7 +3193,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>4.5</exact>
+               <exact>45</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3210,7 +3210,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>4.6</exact>
+               <exact>46</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3227,7 +3227,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>4.7</exact>
+               <exact>47</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3244,7 +3244,7 @@
                <exact>-0.21832</exact>
             </orientation>
             <time>
-               <exact>4.8</exact>
+               <exact>48</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3261,7 +3261,7 @@
                <exact>-0.21512</exact>
             </orientation>
             <time>
-               <exact>4.9</exact>
+               <exact>49</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3278,7 +3278,7 @@
                <exact>-0.21512</exact>
             </orientation>
             <time>
-               <exact>5</exact>
+               <exact>50</exact>
             </time>
             <velocity>
                <exact>14</exact>
@@ -3295,24 +3295,24 @@
             <width>2</width>
          </rectangle>
       </shape>
+      <initialState>
+         <position>
+            <point>
+               <x>22.2242</x>
+               <y>1.959</y>
+            </point>
+         </position>
+         <orientation>
+            <exact>2.9147</exact>
+         </orientation>
+         <time>
+            <exact>0</exact>
+         </time>
+         <velocity>
+            <exact>12</exact>
+         </velocity>
+      </initialState>
       <trajectory>
-         <state>
-            <position>
-               <point>
-                  <x>22.2242</x>
-                  <y>1.959</y>
-               </point>
-            </position>
-            <orientation>
-               <exact>2.9147</exact>
-            </orientation>
-            <time>
-               <exact>0</exact>
-            </time>
-            <velocity>
-               <exact>12</exact>
-            </velocity>
-         </state>
          <state>
             <position>
                <point>
@@ -3324,7 +3324,7 @@
                <exact>2.7037</exact>
             </orientation>
             <time>
-               <exact>0.1</exact>
+               <exact>1</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3341,7 +3341,7 @@
                <exact>2.4042</exact>
             </orientation>
             <time>
-               <exact>0.2</exact>
+               <exact>2</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3358,7 +3358,7 @@
                <exact>2.0798</exact>
             </orientation>
             <time>
-               <exact>0.3</exact>
+               <exact>3</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3375,7 +3375,7 @@
                <exact>1.8694</exact>
             </orientation>
             <time>
-               <exact>0.4</exact>
+               <exact>4</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3392,7 +3392,7 @@
                <exact>1.7089</exact>
             </orientation>
             <time>
-               <exact>0.5</exact>
+               <exact>5</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3409,7 +3409,7 @@
                <exact>1.7089</exact>
             </orientation>
             <time>
-               <exact>0.6</exact>
+               <exact>6</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3426,7 +3426,7 @@
                <exact>1.5995</exact>
             </orientation>
             <time>
-               <exact>0.7</exact>
+               <exact>7</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3443,7 +3443,7 @@
                <exact>1.5995</exact>
             </orientation>
             <time>
-               <exact>0.8</exact>
+               <exact>8</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3460,7 +3460,7 @@
                <exact>1.5995</exact>
             </orientation>
             <time>
-               <exact>0.9</exact>
+               <exact>9</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3477,7 +3477,7 @@
                <exact>1.6965</exact>
             </orientation>
             <time>
-               <exact>1</exact>
+               <exact>10</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3494,7 +3494,7 @@
                <exact>1.6965</exact>
             </orientation>
             <time>
-               <exact>1.1</exact>
+               <exact>11</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3511,7 +3511,7 @@
                <exact>1.7881</exact>
             </orientation>
             <time>
-               <exact>1.2</exact>
+               <exact>12</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3528,7 +3528,7 @@
                <exact>1.7881</exact>
             </orientation>
             <time>
-               <exact>1.3</exact>
+               <exact>13</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3545,7 +3545,7 @@
                <exact>1.7881</exact>
             </orientation>
             <time>
-               <exact>1.4</exact>
+               <exact>14</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3562,7 +3562,7 @@
                <exact>1.7881</exact>
             </orientation>
             <time>
-               <exact>1.5</exact>
+               <exact>15</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3579,7 +3579,7 @@
                <exact>1.852</exact>
             </orientation>
             <time>
-               <exact>1.6</exact>
+               <exact>16</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3596,7 +3596,7 @@
                <exact>1.852</exact>
             </orientation>
             <time>
-               <exact>1.7</exact>
+               <exact>17</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3613,7 +3613,7 @@
                <exact>1.852</exact>
             </orientation>
             <time>
-               <exact>1.8</exact>
+               <exact>18</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3630,7 +3630,7 @@
                <exact>1.852</exact>
             </orientation>
             <time>
-               <exact>1.9</exact>
+               <exact>19</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3647,7 +3647,7 @@
                <exact>1.852</exact>
             </orientation>
             <time>
-               <exact>2</exact>
+               <exact>20</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3664,7 +3664,7 @@
                <exact>1.852</exact>
             </orientation>
             <time>
-               <exact>2.1</exact>
+               <exact>21</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3681,7 +3681,7 @@
                <exact>1.8857</exact>
             </orientation>
             <time>
-               <exact>2.2</exact>
+               <exact>22</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3698,7 +3698,7 @@
                <exact>1.8857</exact>
             </orientation>
             <time>
-               <exact>2.3</exact>
+               <exact>23</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3715,7 +3715,7 @@
                <exact>1.8857</exact>
             </orientation>
             <time>
-               <exact>2.4</exact>
+               <exact>24</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3732,7 +3732,7 @@
                <exact>1.8857</exact>
             </orientation>
             <time>
-               <exact>2.5</exact>
+               <exact>25</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3749,7 +3749,7 @@
                <exact>1.8857</exact>
             </orientation>
             <time>
-               <exact>2.6</exact>
+               <exact>26</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3766,7 +3766,7 @@
                <exact>1.8857</exact>
             </orientation>
             <time>
-               <exact>2.7</exact>
+               <exact>27</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3783,7 +3783,7 @@
                <exact>1.8856</exact>
             </orientation>
             <time>
-               <exact>2.8</exact>
+               <exact>28</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3800,7 +3800,7 @@
                <exact>1.8856</exact>
             </orientation>
             <time>
-               <exact>2.9</exact>
+               <exact>29</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3817,7 +3817,7 @@
                <exact>1.8856</exact>
             </orientation>
             <time>
-               <exact>3</exact>
+               <exact>30</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3834,7 +3834,7 @@
                <exact>1.8856</exact>
             </orientation>
             <time>
-               <exact>3.1</exact>
+               <exact>31</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3851,7 +3851,7 @@
                <exact>1.8856</exact>
             </orientation>
             <time>
-               <exact>3.2</exact>
+               <exact>32</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3868,7 +3868,7 @@
                <exact>1.8856</exact>
             </orientation>
             <time>
-               <exact>3.3</exact>
+               <exact>33</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3885,7 +3885,7 @@
                <exact>1.8856</exact>
             </orientation>
             <time>
-               <exact>3.4</exact>
+               <exact>34</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3902,7 +3902,7 @@
                <exact>1.8856</exact>
             </orientation>
             <time>
-               <exact>3.5</exact>
+               <exact>35</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3919,7 +3919,7 @@
                <exact>1.8856</exact>
             </orientation>
             <time>
-               <exact>3.6</exact>
+               <exact>36</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3936,7 +3936,7 @@
                <exact>1.8856</exact>
             </orientation>
             <time>
-               <exact>3.7</exact>
+               <exact>37</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3953,7 +3953,7 @@
                <exact>1.8971</exact>
             </orientation>
             <time>
-               <exact>3.8</exact>
+               <exact>38</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3970,7 +3970,7 @@
                <exact>1.8971</exact>
             </orientation>
             <time>
-               <exact>3.9</exact>
+               <exact>39</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -3987,7 +3987,7 @@
                <exact>1.8971</exact>
             </orientation>
             <time>
-               <exact>4</exact>
+               <exact>40</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -4004,7 +4004,7 @@
                <exact>1.8971</exact>
             </orientation>
             <time>
-               <exact>4.1</exact>
+               <exact>41</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -4021,7 +4021,7 @@
                <exact>1.8971</exact>
             </orientation>
             <time>
-               <exact>4.2</exact>
+               <exact>42</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -4038,7 +4038,7 @@
                <exact>1.8971</exact>
             </orientation>
             <time>
-               <exact>4.3</exact>
+               <exact>43</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -4055,7 +4055,7 @@
                <exact>1.8971</exact>
             </orientation>
             <time>
-               <exact>4.4</exact>
+               <exact>44</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -4072,7 +4072,7 @@
                <exact>1.8971</exact>
             </orientation>
             <time>
-               <exact>4.5</exact>
+               <exact>45</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -4089,7 +4089,7 @@
                <exact>1.8971</exact>
             </orientation>
             <time>
-               <exact>4.6</exact>
+               <exact>46</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -4106,7 +4106,7 @@
                <exact>1.8971</exact>
             </orientation>
             <time>
-               <exact>4.7</exact>
+               <exact>47</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -4123,7 +4123,7 @@
                <exact>1.8971</exact>
             </orientation>
             <time>
-               <exact>4.8</exact>
+               <exact>48</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -4140,7 +4140,7 @@
                <exact>1.8971</exact>
             </orientation>
             <time>
-               <exact>4.9</exact>
+               <exact>49</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -4157,7 +4157,7 @@
                <exact>1.8971</exact>
             </orientation>
             <time>
-               <exact>5</exact>
+               <exact>50</exact>
             </time>
             <velocity>
                <exact>12</exact>
@@ -4180,10 +4180,10 @@
             <exact>0</exact>
          </orientation>
          <yawRate>
-            <exact>0</exact>
+            <exact>0.000000</exact>
          </yawRate>
          <slipAngle>
-            <exact>0</exact>
+            <exact>0.000000</exact>
          </slipAngle>
          <time>
             <exact>0</exact>
@@ -4207,7 +4207,7 @@
          </orientation>
          <time>
             <intervalStart>0</intervalStart>
-            <intervalEnd>5</intervalEnd>
+            <intervalEnd>50</intervalEnd>
          </time>
       </goalState>
    </planningProblem>

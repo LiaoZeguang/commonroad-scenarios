@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<commonRoad affiliation="Technical University of Munich, Germany" author="Vanessa Bui, Markus Koschi, Sebastian Lutz" benchmarkID="DEU_Ffb-1_2_S-1" commonRoadVersion="2018a" date="2018-06-24" source="Bing Maps" tags="urban two_lane oncoming_traffic intersection turn_left comfort speed_limit" timeStepSize="0.1">
+<commonRoad affiliation="Technical University of Munich, Germany" author="Vanessa Bui, Markus Koschi, Sebastian Lutz" benchmarkID="DEU_Ffb-1_2_S-1" commonRoadVersion="2018b" date="2018-10-29" source="Bing Maps" tags="urban two_lane oncoming_traffic intersection turn_left comfort speed_limit" timeStepSize="0.1">
    <lanelet id="49564">
       <leftBound>
          <point>
@@ -2083,6 +2083,32 @@
    <obstacle id="101">
       <role>dynamic</role>
       <type>car</type>
+	  <shape>
+	     <rectangle>
+            <length>4.8</length>
+            <width>2</width>
+         </rectangle>
+	  </shape>
+	  <initialState>
+	     <position>
+		    <point>
+			   <x>66.5</x>
+			   <y>24</y>
+			</point>
+		 </position>
+		 <orientation>
+		    <exact>-1.5499</exact>
+		 </orientation>
+		 <time>
+		    <exact>0</exact>
+		 </time>
+		 <velocity>
+		    <exact>14</exact>
+		 </velocity>
+		 <acceleration>
+		    <exact>0</exact>
+		 </acceleration>
+	  </initialState>
       <occupancySet>
          <occupancy>
             <shape>
@@ -2127,7 +2153,7 @@
             </shape>
             <time>
                <intervalStart>0</intervalStart>
-               <intervalEnd>0.1</intervalEnd>
+               <intervalEnd>1</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2168,8 +2194,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.1</intervalStart>
-               <intervalEnd>0.2</intervalEnd>
+               <intervalStart>1</intervalStart>
+               <intervalEnd>2</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2210,8 +2236,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.2</intervalStart>
-               <intervalEnd>0.3</intervalEnd>
+               <intervalStart>2</intervalStart>
+               <intervalEnd>3</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2252,8 +2278,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.3</intervalStart>
-               <intervalEnd>0.4</intervalEnd>
+               <intervalStart>3</intervalStart>
+               <intervalEnd>4</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2294,8 +2320,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.4</intervalStart>
-               <intervalEnd>0.5</intervalEnd>
+               <intervalStart>4</intervalStart>
+               <intervalEnd>5</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2336,8 +2362,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.5</intervalStart>
-               <intervalEnd>0.6</intervalEnd>
+               <intervalStart>5</intervalStart>
+               <intervalEnd>6</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2374,8 +2400,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.6</intervalStart>
-               <intervalEnd>0.7</intervalEnd>
+               <intervalStart>6</intervalStart>
+               <intervalEnd>7</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2412,8 +2438,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.7</intervalStart>
-               <intervalEnd>0.8</intervalEnd>
+               <intervalStart>7</intervalStart>
+               <intervalEnd>8</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2450,8 +2476,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.8</intervalStart>
-               <intervalEnd>0.9</intervalEnd>
+               <intervalStart>8</intervalStart>
+               <intervalEnd>9</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2484,8 +2510,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.9</intervalStart>
-               <intervalEnd>1</intervalEnd>
+               <intervalStart>9</intervalStart>
+               <intervalEnd>10</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2518,8 +2544,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1</intervalStart>
-               <intervalEnd>1.1</intervalEnd>
+               <intervalStart>10</intervalStart>
+               <intervalEnd>11</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2556,8 +2582,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.1</intervalStart>
-               <intervalEnd>1.2</intervalEnd>
+               <intervalStart>11</intervalStart>
+               <intervalEnd>12</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2594,8 +2620,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.2</intervalStart>
-               <intervalEnd>1.3</intervalEnd>
+               <intervalStart>12</intervalStart>
+               <intervalEnd>13</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2632,8 +2658,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.3</intervalStart>
-               <intervalEnd>1.4</intervalEnd>
+               <intervalStart>13</intervalStart>
+               <intervalEnd>14</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2670,8 +2696,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.4</intervalStart>
-               <intervalEnd>1.5</intervalEnd>
+               <intervalStart>14</intervalStart>
+               <intervalEnd>15</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2708,8 +2734,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.5</intervalStart>
-               <intervalEnd>1.6</intervalEnd>
+               <intervalStart>15</intervalStart>
+               <intervalEnd>16</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2746,8 +2772,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.6</intervalStart>
-               <intervalEnd>1.7</intervalEnd>
+               <intervalStart>16</intervalStart>
+               <intervalEnd>17</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2784,8 +2810,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.7</intervalStart>
-               <intervalEnd>1.8</intervalEnd>
+               <intervalStart>17</intervalStart>
+               <intervalEnd>18</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2814,8 +2840,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.8</intervalStart>
-               <intervalEnd>1.9</intervalEnd>
+               <intervalStart>18</intervalStart>
+               <intervalEnd>19</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2844,8 +2870,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.9</intervalStart>
-               <intervalEnd>2</intervalEnd>
+               <intervalStart>19</intervalStart>
+               <intervalEnd>20</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2882,8 +2908,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2</intervalStart>
-               <intervalEnd>2.1</intervalEnd>
+               <intervalStart>20</intervalStart>
+               <intervalEnd>21</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2920,8 +2946,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.1</intervalStart>
-               <intervalEnd>2.2</intervalEnd>
+               <intervalStart>21</intervalStart>
+               <intervalEnd>22</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2958,8 +2984,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.2</intervalStart>
-               <intervalEnd>2.3</intervalEnd>
+               <intervalStart>22</intervalStart>
+               <intervalEnd>23</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -2996,8 +3022,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.3</intervalStart>
-               <intervalEnd>2.4</intervalEnd>
+               <intervalStart>23</intervalStart>
+               <intervalEnd>24</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3034,8 +3060,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.4</intervalStart>
-               <intervalEnd>2.5</intervalEnd>
+               <intervalStart>24</intervalStart>
+               <intervalEnd>25</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3072,8 +3098,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.5</intervalStart>
-               <intervalEnd>2.6</intervalEnd>
+               <intervalStart>25</intervalStart>
+               <intervalEnd>26</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3110,8 +3136,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.6</intervalStart>
-               <intervalEnd>2.7</intervalEnd>
+               <intervalStart>26</intervalStart>
+               <intervalEnd>27</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3148,8 +3174,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.7</intervalStart>
-               <intervalEnd>2.8</intervalEnd>
+               <intervalStart>27</intervalStart>
+               <intervalEnd>28</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3186,8 +3212,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.8</intervalStart>
-               <intervalEnd>2.9</intervalEnd>
+               <intervalStart>28</intervalStart>
+               <intervalEnd>29</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3232,8 +3258,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.9</intervalStart>
-               <intervalEnd>3</intervalEnd>
+               <intervalStart>29</intervalStart>
+               <intervalEnd>30</intervalEnd>
             </time>
          </occupancy>
       </occupancySet>
@@ -3241,6 +3267,32 @@
    <obstacle id="102">
       <role>dynamic</role>
       <type>car</type>
+	  <shape>
+	     <rectangle>
+            <length>4.8</length>
+            <width>2</width>
+         </rectangle>
+	  </shape>
+	  <initialState>
+	     <position>
+		    <point>
+			   <x>94</x>
+			   <y>7.5</y>
+			</point>
+		 </position>
+		 <orientation>
+		    <exact>3.030608</exact>
+		 </orientation>
+		 <time>
+		    <exact>0</exact>
+		 </time>
+		 <velocity>
+		    <exact>10</exact>
+		 </velocity>
+		 <acceleration>
+		    <exact>0</exact>
+		 </acceleration>
+	  </initialState>
       <occupancySet>
          <occupancy>
             <shape>
@@ -3281,7 +3333,7 @@
             </shape>
             <time>
                <intervalStart>0</intervalStart>
-               <intervalEnd>0.1</intervalEnd>
+               <intervalEnd>1</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3322,8 +3374,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.1</intervalStart>
-               <intervalEnd>0.2</intervalEnd>
+               <intervalStart>1</intervalStart>
+               <intervalEnd>2</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3360,8 +3412,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.2</intervalStart>
-               <intervalEnd>0.3</intervalEnd>
+               <intervalStart>2</intervalStart>
+               <intervalEnd>3</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3398,8 +3450,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.3</intervalStart>
-               <intervalEnd>0.4</intervalEnd>
+               <intervalStart>3</intervalStart>
+               <intervalEnd>4</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3436,8 +3488,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.4</intervalStart>
-               <intervalEnd>0.5</intervalEnd>
+               <intervalStart>4</intervalStart>
+               <intervalEnd>5</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3478,8 +3530,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.5</intervalStart>
-               <intervalEnd>0.6</intervalEnd>
+               <intervalStart>5</intervalStart>
+               <intervalEnd>6</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3520,8 +3572,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.6</intervalStart>
-               <intervalEnd>0.7</intervalEnd>
+               <intervalStart>6</intervalStart>
+               <intervalEnd>7</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3562,8 +3614,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.7</intervalStart>
-               <intervalEnd>0.8</intervalEnd>
+               <intervalStart>7</intervalStart>
+               <intervalEnd>8</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3600,8 +3652,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.8</intervalStart>
-               <intervalEnd>0.9</intervalEnd>
+               <intervalStart>8</intervalStart>
+               <intervalEnd>9</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3642,8 +3694,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>0.9</intervalStart>
-               <intervalEnd>1</intervalEnd>
+               <intervalStart>9</intervalStart>
+               <intervalEnd>10</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3684,8 +3736,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1</intervalStart>
-               <intervalEnd>1.1</intervalEnd>
+               <intervalStart>10</intervalStart>
+               <intervalEnd>11</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3734,8 +3786,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.1</intervalStart>
-               <intervalEnd>1.2</intervalEnd>
+               <intervalStart>11</intervalStart>
+               <intervalEnd>12</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3784,8 +3836,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.2</intervalStart>
-               <intervalEnd>1.3</intervalEnd>
+               <intervalStart>12</intervalStart>
+               <intervalEnd>13</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3850,8 +3902,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.3</intervalStart>
-               <intervalEnd>1.4</intervalEnd>
+               <intervalStart>13</intervalStart>
+               <intervalEnd>14</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -3924,8 +3976,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.4</intervalStart>
-               <intervalEnd>1.5</intervalEnd>
+               <intervalStart>14</intervalStart>
+               <intervalEnd>15</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -4010,8 +4062,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.5</intervalStart>
-               <intervalEnd>1.6</intervalEnd>
+               <intervalStart>15</intervalStart>
+               <intervalEnd>16</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -4104,8 +4156,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.6</intervalStart>
-               <intervalEnd>1.7</intervalEnd>
+               <intervalStart>16</intervalStart>
+               <intervalEnd>17</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -4202,8 +4254,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.7</intervalStart>
-               <intervalEnd>1.8</intervalEnd>
+               <intervalStart>17</intervalStart>
+               <intervalEnd>18</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -4312,8 +4364,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.8</intervalStart>
-               <intervalEnd>1.9</intervalEnd>
+               <intervalStart>18</intervalStart>
+               <intervalEnd>19</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -4434,8 +4486,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>1.9</intervalStart>
-               <intervalEnd>2</intervalEnd>
+               <intervalStart>19</intervalStart>
+               <intervalEnd>20</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -4568,8 +4620,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2</intervalStart>
-               <intervalEnd>2.1</intervalEnd>
+               <intervalStart>20</intervalStart>
+               <intervalEnd>21</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -4702,8 +4754,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.1</intervalStart>
-               <intervalEnd>2.2</intervalEnd>
+               <intervalStart>21</intervalStart>
+               <intervalEnd>22</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -4836,8 +4888,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.2</intervalStart>
-               <intervalEnd>2.3</intervalEnd>
+               <intervalStart>22</intervalStart>
+               <intervalEnd>23</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -4970,8 +5022,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.3</intervalStart>
-               <intervalEnd>2.4</intervalEnd>
+               <intervalStart>23</intervalStart>
+               <intervalEnd>24</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -5112,8 +5164,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.4</intervalStart>
-               <intervalEnd>2.5</intervalEnd>
+               <intervalStart>24</intervalStart>
+               <intervalEnd>25</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -5254,8 +5306,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.5</intervalStart>
-               <intervalEnd>2.6</intervalEnd>
+               <intervalStart>25</intervalStart>
+               <intervalEnd>26</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -5392,8 +5444,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.6</intervalStart>
-               <intervalEnd>2.7</intervalEnd>
+               <intervalStart>26</intervalStart>
+               <intervalEnd>27</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -5530,8 +5582,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.7</intervalStart>
-               <intervalEnd>2.8</intervalEnd>
+               <intervalStart>27</intervalStart>
+               <intervalEnd>28</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -5668,8 +5720,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.8</intervalStart>
-               <intervalEnd>2.9</intervalEnd>
+               <intervalStart>28</intervalStart>
+               <intervalEnd>29</intervalEnd>
             </time>
          </occupancy>
          <occupancy>
@@ -5806,8 +5858,8 @@
                </polygon>
             </shape>
             <time>
-               <intervalStart>2.9</intervalStart>
-               <intervalEnd>3</intervalEnd>
+               <intervalStart>29</intervalStart>
+               <intervalEnd>30</intervalEnd>
             </time>
          </occupancy>
       </occupancySet>
@@ -5843,8 +5895,8 @@
             <lanelet ref="49566"/>
          </position>
          <time>
-            <intervalStart>2.9</intervalStart>
-            <intervalEnd>3</intervalEnd>
+            <intervalStart>29</intervalStart>
+            <intervalEnd>30</intervalEnd>
          </time>
       </goalState>
    </planningProblem>

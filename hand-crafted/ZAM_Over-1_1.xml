@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<commonRoad affiliation="Technical University of Munich, Germany" author="Lukas Braunstorfer, Markus Koschi, Sebastian Lutz, Sebastian Söntges" benchmarkID="ZAM_Over-1_1" commonRoadVersion="2018a" date="2018-06-17" source="" tags="rural two_lane no_oncoming_traffic parallel_lanes lane_change comfort speed_limit lane_blocked" timeStepSize="0.1">
+<commonRoad affiliation="Technical University of Munich, Germany" author="Lukas Braunstorfer, Markus Koschi, Sebastian Lutz, Sebastian Söntges" benchmarkID="ZAM_Over-1_1" commonRoadVersion="2018b" date="2018-10-26" source="" tags="rural two_lane no_oncoming_traffic parallel_lanes lane_change comfort speed_limit" timeStepSize="0.1">
    <lanelet id="1000">
       <leftBound>
          <point>
@@ -3239,13 +3239,22 @@
          <rectangle>
             <length>6</length>
             <width>3.5</width>
-            <orientation>0.07759</orientation>
-            <center>
-               <x>59.948</x>
-               <y>0.48323</y>
-            </center>
          </rectangle>
       </shape>
+      <initialState>
+         <position>
+            <point>
+               <x>59.948</x>
+               <y>0.48323</y>
+            </point>
+         </position>
+         <orientation>
+            <exact>0.07759</exact>
+         </orientation>
+         <time>
+            <exact>0</exact>
+         </time>
+      </initialState>
    </obstacle>
    <planningProblem id="1">
       <initialState>
@@ -3289,7 +3298,7 @@
          </orientation>
          <time>
             <intervalStart>0</intervalStart>
-            <intervalEnd>3</intervalEnd>
+            <intervalEnd>30</intervalEnd>
          </time>
       </goalState>
    </planningProblem>

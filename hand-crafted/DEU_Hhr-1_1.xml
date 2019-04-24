@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<commonRoad affiliation="Technical University of Munich, Germany" author="Matthias Althoff, Sebastian Lutz" benchmarkID="DEU_Hhr-1_1" commonRoadVersion="2018a" date="2018-06-17" source="Bing Maps" tags="race_track single_lane no_oncoming_traffic lane_following evasive" timeStepSize="0.1">
+<commonRoad affiliation="Technical University of Munich, Germany" author="Matthias Althoff, Sebastian Lutz" benchmarkID="DEU_Hhr-1_1" commonRoadVersion="2018b" date="2018-10-26" source="Bing Maps" tags="single_lane no_oncoming_traffic lane_following evasive race_track" timeStepSize="0.1">
    <lanelet id="40896">
       <leftBound>
          <point>
@@ -4557,10 +4557,10 @@
             <exact>2.0226</exact>
          </orientation>
          <yawRate>
-            <exact>0</exact>
+            <exact>0.000000</exact>
          </yawRate>
          <slipAngle>
-            <exact>0</exact>
+            <exact>0.000000</exact>
          </slipAngle>
          <time>
             <exact>0</exact>
@@ -4584,7 +4584,7 @@
          </orientation>
          <time>
             <intervalStart>0</intervalStart>
-            <intervalEnd>180</intervalEnd>
+            <intervalEnd>1800</intervalEnd>
          </time>
       </goalState>
    </planningProblem>

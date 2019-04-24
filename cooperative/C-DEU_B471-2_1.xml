@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<commonRoad affiliation="Technical University of Munich, Germany" author="Sebastian Lutz, Stefanie Manzinger, Alexander Zhu" benchmarkID="C-DEU_B471-2_1" commonRoadVersion="2018a" date="2018-10-29" source="Bing Maps" tags="rural two_lane no_oncoming_traffic roundabout turn_right comfort" timeStepSize="0.1">
+<commonRoad affiliation="Technical University of Munich, Germany" author="Sebastian Lutz, Stefanie Manzinger, Alexander Zhu" benchmarkID="C-DEU_B471-2_1" commonRoadVersion="2018b" date="2018-10-30" source="Bing Maps" tags="rural two_lane no_oncoming_traffic roundabout turn_right comfort" timeStepSize="0.1">
    <lanelet id="31532">
       <leftBound>
          <point>
@@ -102,7 +102,7 @@
          </point>
       </rightBound>
       <successor ref="31534"/>
-	  <adjacentLeft drivingDir="opposite" ref="31572"/>
+      <adjacentLeft drivingDir="opposite" ref="31572"/>
    </lanelet>
    <lanelet id="31534">
       <leftBound>
@@ -470,7 +470,7 @@
          </point>
       </rightBound>
       <predecessor ref="31534"/>
-	  <predecessor ref="31802"/>
+      <predecessor ref="31802"/>
       <successor ref="31538"/>
       <successor ref="31578"/>
    </lanelet>
@@ -972,7 +972,7 @@
          </point>
       </rightBound>
       <predecessor ref="31544"/>
-	  <successor ref="31802"/>
+      <successor ref="31802"/>
       <successor ref="31548"/>
    </lanelet>
    <lanelet id="31548">
@@ -1094,7 +1094,7 @@
          </point>
       </rightBound>
       <predecessor ref="31540"/>
-	  <successor ref="31552"/>
+      <successor ref="31552"/>
    </lanelet>
    <lanelet id="31552">
       <leftBound>
@@ -1102,32 +1102,32 @@
             <x>-16.7934</x>
             <y>-142.942</y>
          </point>
-		 <point>
+         <point>
             <x>-10.425</x>
             <y>-148.2057</y>
          </point>
-		 <point>
+         <point>
             <x>-4.0566</x>
             <y>-153.4927</y>
          </point>
       </leftBound>
-	  <rightBound>
+      <rightBound>
          <point>
             <x>-19.3279</x>
             <y>-145.3621</y>
          </point>
-		 <point>
+         <point>
             <x>-13.0466</x>
             <y>-150.6404</y>
          </point>
-		 <point>
+         <point>
             <x>-6.7653</x>
             <y>-155.9187</y>
          </point>
       </rightBound>
-	  <predecessor ref="31550"/>
-	  <successor ref="31554"/>
-	  <adjacentLeft drivingDir="opposite" ref="31566"/>
+      <predecessor ref="31550"/>
+      <successor ref="31554"/>
+      <adjacentLeft drivingDir="opposite" ref="31566"/>
    </lanelet>
    <lanelet id="31554">
       <leftBound>
@@ -1166,10 +1166,10 @@
             <y>-181.1427</y>
          </point>
       </rightBound>
-	  <predecessor ref="31552"/>
+      <predecessor ref="31552"/>
       <successor ref="31556"/>
-      <adjacentRight drivingDir="same" ref="31610"/>
       <adjacentLeft drivingDir="opposite" ref="31564"/>
+      <adjacentRight drivingDir="same" ref="31610"/>
    </lanelet>
    <lanelet id="31556">
       <leftBound>
@@ -1226,7 +1226,7 @@
       </rightBound>
       <predecessor ref="31554"/>
       <successor ref="31558"/>
-	  <adjacentLeft drivingDir="opposite" ref="31562"/>
+      <adjacentLeft drivingDir="opposite" ref="31562"/>
    </lanelet>
    <lanelet id="31558">
       <leftBound>
@@ -1372,7 +1372,7 @@
       </rightBound>
       <predecessor ref="31560"/>
       <successor ref="31564"/>
-	  <adjacentLeft drivingDir="opposite" ref="31556"/>
+      <adjacentLeft drivingDir="opposite" ref="31556"/>
    </lanelet>
    <lanelet id="31564">
       <leftBound>
@@ -1438,7 +1438,7 @@
       </rightBound>
       <predecessor ref="31564"/>
       <successor ref="31568"/>
-	  <adjacentLeft drivingDir="opposite" ref="31552"/>
+      <adjacentLeft drivingDir="opposite" ref="31552"/>
    </lanelet>
    <lanelet id="31568">
       <leftBound>
@@ -1798,7 +1798,7 @@
          </point>
       </rightBound>
       <predecessor ref="31570"/>
-	  <adjacentLeft drivingDir="opposite" ref="31532"/>
+      <adjacentLeft drivingDir="opposite" ref="31532"/>
    </lanelet>
    <lanelet id="31574">
       <leftBound>
@@ -1886,7 +1886,7 @@
          </point>
       </rightBound>
       <successor ref="31576"/>
-	  <adjacentLeft drivingDir="opposite" ref="31600"/>
+      <adjacentLeft drivingDir="opposite" ref="31600"/>
    </lanelet>
    <lanelet id="31576">
       <leftBound>
@@ -2528,8 +2528,8 @@
       </rightBound>
       <predecessor ref="31590"/>
       <successor ref="31594"/>
-      <adjacentRight drivingDir="same" ref="31604"/>
       <adjacentLeft drivingDir="opposite" ref="31582"/>
+      <adjacentRight drivingDir="same" ref="31604"/>
    </lanelet>
    <lanelet id="31594">
       <leftBound>
@@ -2914,7 +2914,7 @@
          </point>
       </rightBound>
       <predecessor ref="31598"/>
-	  <adjacentLeft drivingDir="opposite" ref="31574"/>
+      <adjacentLeft drivingDir="opposite" ref="31574"/>
    </lanelet>
    <lanelet id="31602">
       <leftBound>
@@ -3479,71 +3479,71 @@
       <successor ref="31608"/>
    </lanelet>
    <planningProblem id="11425">
-    <initialState>
-      <position>
-        <point>
-          <x>-80.235</x>
-          <y>-97.4186</y>
-        </point>
-      </position>
-      <orientation>
-        <exact>-1.5633</exact>
-      </orientation>
-      <time>
-        <exact>0.0</exact>
-      </time>
-      <velocity>
-        <exact>4.8461</exact>
-      </velocity>
-      <yawRate>
-        <exact>0.0012651</exact>
-      </yawRate>
-      <slipAngle>
-        <exact>0.0</exact>
-      </slipAngle>
-    </initialState>
-    <goalState>
-      <position>
-        <lanelet ref="31550"/>
-      </position>
-      <time>
-        <intervalStart>0.0</intervalStart>
-        <intervalEnd>10.0</intervalEnd>
-      </time>
-    </goalState>
-  </planningProblem>
-  <planningProblem id="11426">
-    <initialState>
-      <position>
-        <point>
-          <x>-97.6637</x>
-          <y>-106.134</y>
-        </point>
-      </position>
-      <orientation>
-        <exact>0.2327</exact>
-      </orientation>
-      <time>
-        <exact>0.0</exact>
-      </time>
-      <velocity>
-        <exact>4.9471</exact>
-      </velocity>
-      <yawRate>
-        <exact>0.0</exact>
-      </yawRate>
-      <slipAngle>
-        <exact>0.0</exact>
-      </slipAngle>
-    </initialState>
-    <goalState>
-      <position>
-        <lanelet ref="31598"/>
-      </position>
-      <time>
-        <intervalStart>0.0</intervalStart>
-        <intervalEnd>10.0</intervalEnd>
-      </time>
-    </goalState>
-  </planningProblem>
+      <initialState>
+         <position>
+            <point>
+               <x>-80.235</x>
+               <y>-97.4186</y>
+            </point>
+         </position>
+         <velocity>
+            <exact>4.8461</exact>
+         </velocity>
+         <orientation>
+            <exact>-1.5633</exact>
+         </orientation>
+         <yawRate>
+            <exact>0.001265</exact>
+         </yawRate>
+         <slipAngle>
+            <exact>0.000000</exact>
+         </slipAngle>
+         <time>
+            <exact>0</exact>
+         </time>
+      </initialState>
+      <goalState>
+         <position>
+            <lanelet ref="31550"/>
+         </position>
+         <time>
+            <intervalStart>0</intervalStart>
+            <intervalEnd>1000</intervalEnd>
+         </time>
+      </goalState>
+   </planningProblem>
+   <planningProblem id="11426">
+      <initialState>
+         <position>
+            <point>
+               <x>-97.6637</x>
+               <y>-106.134</y>
+            </point>
+         </position>
+         <velocity>
+            <exact>4.9471</exact>
+         </velocity>
+         <orientation>
+            <exact>0.2327</exact>
+         </orientation>
+         <yawRate>
+            <exact>0.000000</exact>
+         </yawRate>
+         <slipAngle>
+            <exact>0.000000</exact>
+         </slipAngle>
+         <time>
+            <exact>0</exact>
+         </time>
+      </initialState>
+      <goalState>
+         <position>
+            <lanelet ref="31598"/>
+         </position>
+         <time>
+            <intervalStart>0</intervalStart>
+            <intervalEnd>1000</intervalEnd>
+         </time>
+      </goalState>
+   </planningProblem>
 </commonRoad>

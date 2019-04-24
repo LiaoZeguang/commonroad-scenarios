@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<commonRoad affiliation="Technical University of Munich, Germany" author="Mona Beikirch, Markus Koschi, Christian Pek" benchmarkID="ZAM_Intersect-1_2_S-1" commonRoadVersion="2018a" date="2018-10-23" source="" tags="urban multi_lane no_oncoming_traffic intersection lane_following lane_change evasive speed_limit" timeStepSize="0.1">
+<commonRoad affiliation="Technical University of Munich, Germany" author="Mona Beikirch, Markus Koschi, Christian Pek" benchmarkID="ZAM_Intersect-1_2_S-1" commonRoadVersion="2018b" date="2019-04-24" source="" tags="urban multi_lane no_oncoming_traffic intersection lane_following lane_change evasive speed_limit" timeStepSize="0.1">
    <lanelet id="1">
       <leftBound>
          <point>
@@ -5959,182 +5959,29 @@
    <obstacle id="100">
       <role>dynamic</role>
       <type>pedestrian</type>
+	  <shape>
+	     <circle>
+		    <radius>0.35</radius>
+		 </circle>
+	  </shape>
+	  <initialState>
+         <position>
+            <point>
+               <x>8.0354</x>
+               <y>-12.7374</y>
+            </point>
+         </position>
+         <velocity>
+            <exact>1.4034</exact>
+         </velocity>
+         <orientation>
+            <exact>3.6425</exact>
+         </orientation>
+         <time>
+            <exact>0</exact>
+         </time>
+      </initialState>
       <occupancySet>
-         <occupancy>
-            <shape>
-               <polygon>
-                  <point>
-                     <x>8.2237</x>
-                     <y>-12.4278</y>
-                  </point>
-                  <point>
-                     <x>8.3533</x>
-                     <y>-12.5634</y>
-                  </point>
-                  <point>
-                     <x>8.3977</x>
-                     <y>-12.7456</y>
-                  </point>
-               </polygon>
-               <polygon>
-                  <point>
-                     <x>8.2237</x>
-                     <y>-12.4278</y>
-                  </point>
-                  <point>
-                     <x>8.3977</x>
-                     <y>-12.7456</y>
-                  </point>
-                  <point>
-                     <x>8.345</x>
-                     <y>-12.9256</y>
-                  </point>
-               </polygon>
-               <polygon>
-                  <point>
-                     <x>8.2237</x>
-                     <y>-12.4278</y>
-                  </point>
-                  <point>
-                     <x>8.345</x>
-                     <y>-12.9256</y>
-                  </point>
-                  <point>
-                     <x>8.2094</x>
-                     <y>-13.0552</y>
-                  </point>
-               </polygon>
-               <polygon>
-                  <point>
-                     <x>8.2237</x>
-                     <y>-12.4278</y>
-                  </point>
-                  <point>
-                     <x>8.2094</x>
-                     <y>-13.0552</y>
-                  </point>
-                  <point>
-                     <x>8.0878</x>
-                     <y>-13.1254</y>
-                  </point>
-               </polygon>
-               <polygon>
-                  <point>
-                     <x>8.2237</x>
-                     <y>-12.4278</y>
-                  </point>
-                  <point>
-                     <x>8.0878</x>
-                     <y>-13.1254</y>
-                  </point>
-                  <point>
-                     <x>7.9041</x>
-                     <y>-13.1702</y>
-                  </point>
-               </polygon>
-               <polygon>
-                  <point>
-                     <x>8.2237</x>
-                     <y>-12.4278</y>
-                  </point>
-                  <point>
-                     <x>7.9041</x>
-                     <y>-13.1702</y>
-                  </point>
-                  <point>
-                     <x>7.7225</x>
-                     <y>-13.1171</y>
-                  </point>
-               </polygon>
-               <polygon>
-                  <point>
-                     <x>8.2237</x>
-                     <y>-12.4278</y>
-                  </point>
-                  <point>
-                     <x>7.7225</x>
-                     <y>-13.1171</y>
-                  </point>
-                  <point>
-                     <x>7.5918</x>
-                     <y>-12.9803</y>
-                  </point>
-               </polygon>
-               <polygon>
-                  <point>
-                     <x>8.2237</x>
-                     <y>-12.4278</y>
-                  </point>
-                  <point>
-                     <x>7.5918</x>
-                     <y>-12.9803</y>
-                  </point>
-                  <point>
-                     <x>7.547</x>
-                     <y>-12.7965</y>
-                  </point>
-               </polygon>
-               <polygon>
-                  <point>
-                     <x>8.2237</x>
-                     <y>-12.4278</y>
-                  </point>
-                  <point>
-                     <x>7.547</x>
-                     <y>-12.7965</y>
-                  </point>
-                  <point>
-                     <x>7.6001</x>
-                     <y>-12.6149</y>
-                  </point>
-               </polygon>
-               <polygon>
-                  <point>
-                     <x>8.2237</x>
-                     <y>-12.4278</y>
-                  </point>
-                  <point>
-                     <x>7.6001</x>
-                     <y>-12.6149</y>
-                  </point>
-                  <point>
-                     <x>7.7368</x>
-                     <y>-12.4842</y>
-                  </point>
-               </polygon>
-               <polygon>
-                  <point>
-                     <x>8.2237</x>
-                     <y>-12.4278</y>
-                  </point>
-                  <point>
-                     <x>7.7368</x>
-                     <y>-12.4842</y>
-                  </point>
-                  <point>
-                     <x>7.8614</x>
-                     <y>-12.4196</y>
-                  </point>
-               </polygon>
-               <polygon>
-                  <point>
-                     <x>8.2237</x>
-                     <y>-12.4278</y>
-                  </point>
-                  <point>
-                     <x>7.8614</x>
-                     <y>-12.4196</y>
-                  </point>
-                  <point>
-                     <x>8.0436</x>
-                     <y>-12.3751</y>
-                  </point>
-               </polygon>
-            </shape>
-            <time>
-               <exact>0</exact>
-            </time>
-         </occupancy>
          <occupancy>
             <shape>
                <polygon>
@@ -6307,7 +6154,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>0.1</exact>
+               <exact>1</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -6482,7 +6329,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>0.2</exact>
+               <exact>2</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -6657,7 +6504,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>0.3</exact>
+               <exact>3</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -6832,7 +6679,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>0.4</exact>
+               <exact>4</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -7007,7 +6854,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>0.5</exact>
+               <exact>5</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -7182,7 +7029,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>0.6</exact>
+               <exact>6</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -7357,7 +7204,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>0.7</exact>
+               <exact>7</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -7532,7 +7379,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>0.8</exact>
+               <exact>8</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -7707,7 +7554,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>0.9</exact>
+               <exact>9</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -7882,7 +7729,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>1</exact>
+               <exact>10</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -8057,7 +7904,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>1.1</exact>
+               <exact>11</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -8232,7 +8079,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>1.2</exact>
+               <exact>12</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -8407,7 +8254,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>1.3</exact>
+               <exact>13</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -8582,7 +8429,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>1.4</exact>
+               <exact>14</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -8757,7 +8604,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>1.5</exact>
+               <exact>15</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -8932,7 +8779,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>1.6</exact>
+               <exact>16</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -9107,7 +8954,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>1.7</exact>
+               <exact>17</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -9282,7 +9129,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>1.8</exact>
+               <exact>18</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -9457,7 +9304,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>1.9</exact>
+               <exact>19</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -9646,7 +9493,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>2</exact>
+               <exact>20</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -9835,7 +9682,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>2.1</exact>
+               <exact>21</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -10024,7 +9871,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>2.2</exact>
+               <exact>22</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -10185,7 +10032,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>2.3</exact>
+               <exact>23</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -10346,7 +10193,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>2.4</exact>
+               <exact>24</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -10507,7 +10354,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>2.5</exact>
+               <exact>25</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -10668,7 +10515,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>2.6</exact>
+               <exact>26</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -10829,7 +10676,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>2.7</exact>
+               <exact>27</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -10990,7 +10837,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>2.8</exact>
+               <exact>28</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -11151,7 +10998,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>2.9</exact>
+               <exact>29</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -11312,7 +11159,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>3</exact>
+               <exact>30</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -11473,7 +11320,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>3.1</exact>
+               <exact>31</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -11620,7 +11467,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>3.2</exact>
+               <exact>32</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -11767,7 +11614,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>3.3</exact>
+               <exact>33</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -11914,7 +11761,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>3.4</exact>
+               <exact>34</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -12061,7 +11908,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>3.5</exact>
+               <exact>35</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -12208,7 +12055,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>3.6</exact>
+               <exact>36</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -12355,7 +12202,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>3.7</exact>
+               <exact>37</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -12488,7 +12335,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>3.8</exact>
+               <exact>38</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -12621,7 +12468,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>3.9</exact>
+               <exact>39</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -12768,7 +12615,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>4</exact>
+               <exact>40</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -12915,7 +12762,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>4.1</exact>
+               <exact>41</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -13076,7 +12923,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>4.2</exact>
+               <exact>42</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -13251,7 +13098,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>4.3</exact>
+               <exact>43</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -13426,7 +13273,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>4.4</exact>
+               <exact>44</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -13601,7 +13448,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>4.5</exact>
+               <exact>45</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -13776,7 +13623,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>4.6</exact>
+               <exact>46</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -13951,7 +13798,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>4.7</exact>
+               <exact>47</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -14168,7 +14015,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>4.8</exact>
+               <exact>48</exact>
             </time>
          </occupancy>
          <occupancy>
@@ -14385,7 +14232,7 @@
                </polygon>
             </shape>
             <time>
-               <exact>4.9</exact>
+               <exact>49</exact>
             </time>
          </occupancy>
       </occupancySet>
@@ -14416,8 +14263,8 @@
     </initialState>
     <goalState>
         <time>
-          <intervalStart>4.9</intervalStart>
-          <intervalEnd>5.0</intervalEnd>
+          <intervalStart>49</intervalStart>
+          <intervalEnd>50</intervalEnd>
         </time>
     </goalState>
   </planningProblem>
