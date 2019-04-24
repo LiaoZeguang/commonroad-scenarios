@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<commonRoad commonRoadVersion='2017a' benchmarkID='minimalWorkingExample' date='2017-08-25' timeStepSize='0.1'>
+<commonRoad commonRoadVersion='2018a' benchmarkID='minimalWorkingExample' date='2018-06-18' author="Markus Koschi" affiliation="Technical University of Munich, Germany" source="hand-crafted" tags="test" timeStepSize='0.1'>
 <!-- (1) Road Network -->
 	<lanelet id='10'>
 		<leftBound>
@@ -156,6 +156,12 @@
 				<acceleration>
 					<exact>0.0</exact>
 				</acceleration>
+				<yawRate>
+					<exact>0.0</exact>
+				</yawRate>
+				<slipAngle>
+					<exact>0.0</exact>
+				</slipAngle>
 			</state>
 			<state>
 				<position>
@@ -165,17 +171,11 @@
 					</point>
 				</position>
 				<orientation>
-					<exact>0.0</exact>
+					<exact>0.3</exact>
 				</orientation>
 				<time>
 					<exact>0.1</exact>
 				</time>
-				<velocity>
-					<exact>15.0</exact>
-				</velocity>
-				<acceleration>
-					<exact>0.0</exact>
-				</acceleration>
 			</state>
 		</trajectory>		
 	</obstacle>
@@ -205,28 +205,22 @@
 				<exact>0.0</exact>
 			</time>			
 		</initialState>
-		<goalRegion>
-			<state>
-				<position>
-					<rectangle>
-						<length>3</length>
-						<width>2</width>
-						<orientation>3.142</orientation>
-						<center>
-							<x>-10.0</x>
-							<y>4.0</y>
-						</center>
-					</rectangle>
-				</position>
-				<orientation>
-					<intervalStart>1.50</intervalStart>
-					<intervalEnd>1.65</intervalEnd>
-				</orientation>
-				<time>
-					<intervalStart>0.0</intervalStart>
-					<intervalEnd>10.0</intervalEnd>
-				</time>
-			</state>
-		</goalRegion>
+		<goalState>
+			<position>
+				<rectangle>
+					<length>3</length>
+					<width>2</width>
+					<orientation>3.142</orientation>
+					<center>
+						<x>-10.0</x>
+						<y>4.0</y>
+					</center>
+				</rectangle>
+			</position>
+			<time>
+				<intervalStart>0.1</intervalStart>
+				<intervalEnd>10.0</intervalEnd>
+			</time>
+		</goalState>
 	</planningProblem>
 </commonRoad>
