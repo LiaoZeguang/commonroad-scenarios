@@ -78,6 +78,7 @@
          </point>
       </rightBound>
       <successor ref="47242"/>
+      <adjacentLeft drivingDir="same" ref="47240"/>
    </lanelet>
    <lanelet id="47240">
       <leftBound>
@@ -141,6 +142,7 @@
          </point>
       </rightBound>
       <successor ref="47244"/>
+      <adjacentRight drivingDir="same" ref="47238"/>
    </lanelet>
    <lanelet id="47242">
       <leftBound>
@@ -245,6 +247,7 @@
       </rightBound>
       <predecessor ref="47238"/>
       <successor ref="47246"/>
+      <adjacentLeft drivingDir="same" ref="47244"/>
    </lanelet>
    <lanelet id="47244">
       <leftBound>
@@ -341,6 +344,7 @@
       </rightBound>
       <predecessor ref="47240"/>
       <successor ref="47246"/>
+      <adjacentRight drivingDir="same" ref="47242"/>
    </lanelet>
    <lanelet id="47246">
       <leftBound>
